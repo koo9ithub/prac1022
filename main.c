@@ -6,17 +6,11 @@
 int main(int argc, char *argv[]) {
 	
 	int i1;
-	int i2;
 	
-	printf("Input two integers: ");
-	scanf("%d %d", &i1, &i2);
+	printf("Input the second: ");
+	scanf("%d", &i1);
 	
-	printf("+ result is %d\n", i1+i2);
-	printf("- result is %d\n", i1-i2);
-	printf("* result is %d\n", i1*i2);
-	printf("/ result is %d\n", i1/i2);
-	printf("%% result is %d\n", i1%i2);
-	
+	printf("the time is %d:%d.", i1/60, i1%60);
 	
 	return 0;
 }
