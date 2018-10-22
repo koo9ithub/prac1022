@@ -5,8 +5,15 @@
 
 int main(int argc, char *argv[]) {
 	
-	printf("Hello, Sookmyung Electronics!\n");
+	int a;
+	int b;
+	int sum;
 	
+	a = 10;
+	b = 20;
+	sum = a+b;
+	
+	printf("%d + %d = %d", a, b, sum);
 	
 	return 0;
 }
