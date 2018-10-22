@@ -5,18 +5,18 @@
 
 int main(int argc, char *argv[]) {
 	
-	float i1;
-	float i2;
-	float f;
+	int i1;
+	int i2;
 	
-	printf("분자를 입력하세요: ");
-	scanf("%f", &i1);
+	printf("Input two integers: ");
+	scanf("%d %d", &i1, &i2);
 	
-	printf("분모를 입력하세요: ");
-	scanf("%f", &i2);
+	printf("+ result is %d\n", i1+i2);
+	printf("- result is %d\n", i1-i2);
+	printf("* result is %d\n", i1*i2);
+	printf("/ result is %d\n", i1/i2);
+	printf("%% result is %d\n", i1%i2);
 	
-	f = i1/i2;
-	printf("나누기의 결과는? %.4f", f); 
 	
 	return 0;
 }
