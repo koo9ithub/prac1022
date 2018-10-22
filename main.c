@@ -5,15 +5,15 @@
 
 int main(int argc, char *argv[]) {
 	
-	int a;
-	int b;
-	int sum;
+	float r;
+	float pi;
+    float area;
 	
-	a = 10;
-	b = 20;
-	sum = a+b;
+	r = 10.0;
+	pi = 3.141592;
+	area = pi*r*r;
 	
-	printf("%d + %d = %d", a, b, sum);
+	printf("area is: %f\n", area);
 	
 	return 0;
 }
