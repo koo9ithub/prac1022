@@ -5,15 +5,16 @@
 
 int main(int argc, char *argv[]) {
 	
-	float r;
-	float pi;
-    float area;
+	int i;
+	float f;
 	
-	r = 10.0;
-	pi = 3.141592;
-	area = pi*r*r;
+	printf("Input an integer: ");
+	scanf("%d", &i);
 	
-	printf("area is: %f\n", area);
+	printf("Input a float: ");
+	scanf("%f", &f);
+	
+	printf("integer: %d, float: %.2f", i, f);
 	
 	return 0;
 }
