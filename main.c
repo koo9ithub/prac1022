@@ -5,13 +5,29 @@
 
 int main(int argc, char *argv[]) {
 	
-	int year;
+	int number;
 	
-	printf("Input the year: ");
-	scanf("%d", &year);
+	printf("Input the number: ");
+	scanf("%d", &number);
 	
-	printf("Is this year %d the leap year? %d\n", year, (year%4 == 0) && (year%100 != 0) || (year%400 == 0));
-	printf("1 = true, 0 = false.");
+	switch (number)
+	{
+		case 0:
+			printf("없음.\n");
+			break;
+			
+		case 1:
+			printf("one.\n");
+			break;
+			
+		case 2:
+			printf("two.\n");
+			break;
+			
+		default:
+			printf("많음.\n");
+			break;		
+	}
 	
 	return 0;
 }
