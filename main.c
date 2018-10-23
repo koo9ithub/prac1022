@@ -5,17 +5,16 @@
 
 int main(int argc, char *argv[]) {
 	
-	int i;
-	
-	for (i=0; i<5; i++)
-	{
-		if (i+3 == 4)
-		{
-			continue;
-		}
-		
-		printf("%i", i);
+	int square(int n) {
+		return (n*n);
 	}
+	
+	int n;
+	
+	printf("Input a number: ");
+	scanf("%i", &n);
+	
+	printf("square function: %d", square(n));
 	
 	return 0;
 }
