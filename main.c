@@ -5,29 +5,15 @@
 
 int main(int argc, char *argv[]) {
 	
-	int number;
+	int i=1;
 	
-	printf("Input the number: ");
-	scanf("%d", &number);
-	
-	switch (number)
+	while (i<3)
 	{
-		case 0:
-			printf("없음.\n");
-			break;
-			
-		case 1:
-			printf("one.\n");
-			break;
-			
-		case 2:
-			printf("two.\n");
-			break;
-			
-		default:
-			printf("많음.\n");
-			break;		
+		printf("%i 번째 반복중.\n", i);
+		i++;
 	}
+	
+	printf("실행종료.");
 	
 	return 0;
 }
