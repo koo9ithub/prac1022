@@ -6,16 +6,15 @@
 int main(int argc, char *argv[]) {
 	
 	int i;
-	int j;
 	
 	for (i=0; i<5; i++)
 	{
-		for (j=0; j<10; j++)
+		if (i+3 == 4)
 		{
-			printf("*");
+			continue;
 		}
 		
-		printf("\n");
+		printf("%i", i);
 	}
 	
 	return 0;
