@@ -5,15 +5,18 @@
 
 int main(int argc, char *argv[]) {
 	
-	int i=1;
+	int i;
+	int j;
 	
-	while (i<3)
+	for (i=0; i<5; i++)
 	{
-		printf("%i 번째 반복중.\n", i);
-		i++;
+		for (j=0; j<10; j++)
+		{
+			printf("*");
+		}
+		
+		printf("\n");
 	}
-	
-	printf("실행종료.");
 	
 	return 0;
 }
